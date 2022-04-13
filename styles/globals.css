@@ -1,16 +1,12 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer components {
+    .button-buy-now {
+        @apply bg-blue-700 hover:bg-blue-900 px-6 py-2 rounded text-white font-medium tracking-wider transition w-full;
+    }
+    .product-description {
+        @apply w-72 h-24 break-words overflow-hidden text-ellipsis;
+    }
 }
