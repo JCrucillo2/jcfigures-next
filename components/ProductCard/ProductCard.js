@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 function ProductCard({ children, product, ...props }) {
-    const { productName, productPrice, productDescription, imageUrl } = {
+    const { productName, productPrice, productDescription, imageUrl, uid } = {
         ...product,
     };
 
@@ -31,8 +31,8 @@ function ProductCard({ children, product, ...props }) {
                         ${productPrice}
                     </p>
                     <div>
-                        <form action="#" method="POST">
-                            <input type="hidden" name="uid" value="uid" />
+                        <form action="/api/checkout" method="POST">
+                            <input type="hidden" name="uid" value={uid} />
                             <button className="button-buy-now" type="submit">
                                 Buy Now
                             </button>
