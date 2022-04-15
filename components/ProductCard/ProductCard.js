@@ -24,7 +24,7 @@ function ProductCard({ children, product, ...props }) {
                         {productName}
                     </p>
 
-                    <p className="product-description my-2 text-white">
+                    <p className="product-description my-2">
                         {productDescription}
                     </p>
                     <p className="text-2xl font-bold my-3 text-indigo-700">

@@ -5,6 +5,9 @@ module.exports = {
     ],
     theme: {
         extend: {},
+        fontFamily: {
+            headingAlternate: ['"Alfa Slab One"'],
+        },
     },
     plugins: [],
 };

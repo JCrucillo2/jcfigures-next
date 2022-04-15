@@ -23,21 +23,23 @@ export default function Home(props) {
             </Head>
             <div className="bg-blue-700 text-white">
                 <div className="container mx-auto flex justify-between py-3 items-center">
-                    <h1 className="text-2xl font-bold">JCFigures</h1>
+                    <h1 className="text-2xl font-bold">
+                        <a href="/">JCFigures</a>
+                    </h1>
                     <nav>
                         <ul className="flex gap-3">
                             <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition-all">
+                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
                                     Home
                                 </li>
                             </a>
                             <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition-all">
+                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
                                     About Us
                                 </li>
                             </a>
                             <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition-all">
+                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
                                     Contact
                                 </li>
                             </a>
@@ -48,7 +50,7 @@ export default function Home(props) {
 
             <div className="bg-gray-200">
                 <div className="container mx-auto h-screen">
-                    <h2 className="text-center text-6xl py-3">
+                    <h2 className="text-center text-6xl py-4 font-headingAlternate">
                         Statues & Figures
                     </h2>
                     <div className="flex justify-between">
@@ -59,7 +61,7 @@ export default function Home(props) {
                 </div>
             </div>
 
-            <div className="bg-slate-900 text-white bottom-0 w-screen py-5">
+            <div className="bg-slate-900 text-white bottom-0 py-5">
                 <div className="container mx-auto">
                     <h1>&copy; For educational purposes only</h1>
                 </div>
@@ -80,5 +82,6 @@ export async function getStaticProps() {
             products,
             fallback: false,
         },
+        revalidate: 60,
     };
 }
