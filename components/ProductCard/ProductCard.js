@@ -8,10 +8,10 @@ function ProductCard({ children, product, ...props }) {
 
     return (
         <>
-            <div className="bg-orange-600 p-2 rounded">
+            <div className="bg-orange-600 p-3 rounded">
                 <div>
                     <Image
-                        className="rounded"
+                        className="rounded productImg"
                         src={imageUrl}
                         alt={productName}
                         width={300}
@@ -20,7 +20,7 @@ function ProductCard({ children, product, ...props }) {
                     />
                 </div>
                 <div className="text-center">
-                    <p className="font-bold text-xl bg-indigo-700 rounded text-orange-400 py-1">
+                    <p className="font-bold text-xl bg-indigo-700 rounded text-orange-500 py-1">
                         {productName}
                     </p>
 

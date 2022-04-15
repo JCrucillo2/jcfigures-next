@@ -29,21 +29,30 @@ export default function Home(props) {
                     </h1>
                     <nav>
                         <ul className="flex gap-3">
-                            <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
+                            <li>
+                                <a
+                                    href="#"
+                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                >
                                     Home
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                >
                                     About Us
-                                </li>
-                            </a>
-                            <a href="#">
-                                <li className="hover:bg-orange-600 px-3 py-1 rounded transition">
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="#"
+                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                >
                                     Contact
-                                </li>
-                            </a>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>

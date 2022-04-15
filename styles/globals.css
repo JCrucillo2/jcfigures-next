@@ -9,4 +9,7 @@
     .product-description {
         @apply w-72 h-24 break-words overflow-hidden text-ellipsis;
     }
+    .productImg {
+        @apply w-300 h-300;
+    }
 }
