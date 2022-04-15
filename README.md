@@ -11,10 +11,10 @@ JCFigures is a site dedicated in selling famous and high quality statues and fig
 ## Things I used
 
 ![](https://img.shields.io/badge/Code-NextJS-informational?style=for-the-badge&logo=next.js&logoColor=white&color=1D4ED8)
-![](https://img.shields.io/badge/Firebase-Database-informational?style=for-the-badge&logo=firebase&logoColor=white&color=1D4ED8)
-![](https://img.shields.io/badge/Tailwind-CSS_Framework-informational?style=for-the-badge&logo=tailwindcss&logoColor=white&color=1D4ED8)
-![](https://img.shields.io/badge/VS_Code-Text_Editor-informational?style=for-the-badge&logo=visualstudiocode&logoColor=white&color=1D4ED8)
-![](https://img.shields.io/badge/Stripe-Payment-informational?style=for-the-badge&logo=stripe&logoColor=white&color=1D4ED8)
+![](https://img.shields.io/badge/Firebase-Database-informational?style=for-the-badge&logo=firebase&logoColor=FFCA28&color=1D4ED8)
+![](https://img.shields.io/badge/Tailwind-CSS_Framework-informational?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&color=1D4ED8)
+![](https://img.shields.io/badge/VS_Code-Text_Editor-informational?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC&color=1D4ED8)
+![](https://img.shields.io/badge/Stripe-Payment-informational?style=for-the-badge&logo=stripe&logoColor=008CDD&color=1D4ED8)
 
 ## Features
 
