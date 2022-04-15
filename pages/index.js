@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import ProductCard from "../components/ProductCard/ProductCard";
 
 import { loadStripe } from "@stripe/stripe-js";
@@ -24,7 +25,7 @@ export default function Home(props) {
             <div className="bg-blue-700 text-white">
                 <div className="container mx-auto flex justify-between py-3 items-center">
                     <h1 className="text-2xl font-bold">
-                        <a href="/">JCFigures</a>
+                        <Link href="/">JCFigures</Link>
                     </h1>
                     <nav>
                         <ul className="flex gap-3">
