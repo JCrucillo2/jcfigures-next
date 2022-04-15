@@ -58,7 +58,7 @@ export default function Home(props) {
                 </div>
             </div>
 
-            <div className="bg-gray-200">
+            <div>
                 <div className="container mx-auto h-screen">
                     <h2 className="text-center text-6xl py-4 font-headingAlternate">
                         Statues & Figures
@@ -71,7 +71,7 @@ export default function Home(props) {
                 </div>
             </div>
 
-            <div className="bg-slate-900 text-white bottom-0 py-5">
+            <div className="bg-slate-900 text-white sticky bottom-0 py-5">
                 <div className="container mx-auto">
                     <h1>&copy; For educational purposes only</h1>
                 </div>
