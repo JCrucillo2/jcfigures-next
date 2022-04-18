@@ -32,7 +32,7 @@ export default function Home(props) {
                             <li>
                                 <a
                                     href="#"
-                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                    className="hover:bg-orange-600 hover:text-blue-700 px-3 py-1 rounded transition"
                                 >
                                     Home
                                 </a>
@@ -40,7 +40,7 @@ export default function Home(props) {
                             <li>
                                 <a
                                     href="#"
-                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                    className="hover:bg-orange-600 hover:text-blue-700 px-3 py-1 rounded transition"
                                 >
                                     About Us
                                 </a>
@@ -48,7 +48,7 @@ export default function Home(props) {
                             <li>
                                 <a
                                     href="#"
-                                    className="hover:bg-orange-600 hover:text-black px-3 py-1 rounded transition"
+                                    className="hover:bg-orange-600 hover:text-blue-700 px-3 py-1 rounded transition"
                                 >
                                     Contact
                                 </a>
@@ -59,11 +59,11 @@ export default function Home(props) {
             </div>
 
             <div>
-                <div className="container mx-auto h-screen">
+                <div className="container mx-auto">
                     <h2 className="text-center text-6xl py-4 font-headingAlternate">
                         Statues & Figures
                     </h2>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between flex-wrap">
                         {products.map((product) => (
                             <ProductCard key={product.uid} product={product} />
                         ))}
@@ -71,7 +71,7 @@ export default function Home(props) {
                 </div>
             </div>
 
-            <div className="bg-slate-900 text-white sticky bottom-0 py-5">
+            <div className="bg-slate-900 text-white bottom-0 sticky py-5">
                 <div className="container mx-auto">
                     <h1>&copy; For educational purposes only</h1>
                 </div>
